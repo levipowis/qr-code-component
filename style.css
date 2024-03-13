@@ -15,10 +15,12 @@ main {
   width: 20%;
   align-items: center;
   padding: 15px;
+  border-radius: 20px;
 }
 
 .image-qr-code {
   width: 100%;
+  border-radius: 10px;
 }
 
 .container {
