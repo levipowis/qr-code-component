@@ -6,8 +6,7 @@ main {
   width: 100%;
   min-height: 100vh;
   display: grid;
-  justify-items: center;
-  align-items: center;
+  place-content: center;
 }
 
 .card {
