@@ -12,7 +12,7 @@ main {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  width: 18%;
+  width: 260px;
   align-items: center;
   padding: 15px;
   border-radius: 20px;
