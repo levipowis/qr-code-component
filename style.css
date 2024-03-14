@@ -37,7 +37,7 @@ main {
 .container p {
   font-size: 15px;
   font-family: "Outfit", sans-serif;
-  color: hsl(220, 15%, 55%)
+  color: hsl(220, 15%, 70%)
 }
 
 .attribution { 
@@ -47,4 +47,21 @@ main {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-device-width: 480px) {
+  .card {
+    width: 300px;
+  }
+
+  .container h1 {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+
+  .container p {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+    padding-bottom: 1em;
+  }
 }
