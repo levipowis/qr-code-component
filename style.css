@@ -12,7 +12,7 @@ main {
 
 .card {
   background-color: hsl(0, 0%, 100%);
-  width: 260px;
+  width: 300px;
   align-items: center;
   padding: 15px;
   border-radius: 20px;
@@ -32,12 +32,16 @@ main {
   font-family: "Outfit", sans-serif;
   font-weight: 700;
   font-size: 22px;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .container p {
   font-size: 15px;
   font-family: "Outfit", sans-serif;
-  color: hsl(220, 15%, 55%)
+  color: hsl(220, 15%, 55%);
+  padding-left: 1.5em;
+  padding-right: 1.5em;
 }
 
 .attribution { 
@@ -47,21 +51,4 @@ main {
 
 .attribution a { 
   color: hsl(228, 45%, 44%); 
-}
-
-@media only screen and (max-device-width: 480px) {
-  .card {
-    width: 300px;
-  }
-
-  .container h1 {
-    padding-left: 1em;
-    padding-right: 1em;
-  }
-
-  .container p {
-    padding-left: 1.5em;
-    padding-right: 1.5em;
-    padding-bottom: 1em;
-  }
 }

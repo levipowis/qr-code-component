@@ -37,7 +37,7 @@ I built this just using W3Schools, MDN docs and trial & error. It went pretty we
 
 1. How to round corners using border-radius.
 2. I needed to center the card vertically and horizontally and I tried a few methods and finally landed on using Grid with justify-items and align-items.
-3. When I finished the desktop view I realized that my mobile version was smaller than the design image so I learned to use a media query to increase the width of the card and the padding around the text.
+3. When I finished the desktop view I realized that my mobile version was smaller than the design image so I learned to use a media query to increase the width of the card and the padding around the text. **(This ended up not being necessary because the desktop size was too small. So I changed that and discarded the media query.)**
 4. After the fact I learned about mobile-first development which I will use in my next project.
 
 ### Continued development
